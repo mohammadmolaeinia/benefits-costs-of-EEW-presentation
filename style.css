@@ -17,7 +17,8 @@
 }
 
 :root {
-  --brand:            linear-gradient(45deg,#4AB1E8 0%, #093C4D 100%);
+  --brand:            #093C4D;
+  --brandbg:          linear-gradient(45deg,#4AB1E8 0%, #093C4D 100%);
   --brand-600:        #083c53;
   --brand-100:        #e3f0f6;
   --accent:           #e8a33d;
@@ -138,7 +139,7 @@ button {
   align-items: center;
   gap: 14px;
   padding: 0 18px;
-  background: var(--brand);
+  background: var(--brandbg);
   color: var(--text-invert);
   box-shadow: var(--shadow);
   z-index: 200;
