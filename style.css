@@ -17,7 +17,7 @@
 }
 
 :root {
-  --brand:            #0b4f6c;
+  --brand:            linear-gradient(45deg,#4AB1E8 0%, #093C4D 100%);
   --brand-600:        #083c53;
   --brand-100:        #e3f0f6;
   --accent:           #e8a33d;
